@@ -1,1 +1,34 @@
+SimulationType                 MonteCarlo
+NumberOfCycles                 1000000
+NumberOfInitializationCycles   50000
+PrintEvery                     1000
+RestartFile                    no
 
+RandomSeed 7
+
+ContinueAfterCrash             no
+WriteBinaryRestartFileEvery    0
+
+Forcefield                     local
+CutOffVDW                      14.0
+RemoveAtomNumberCodeFromLabel  yes
+
+Framework             0
+FrameworkName         IRMOF-8
+UseChargesFromCIFFile no
+UnitCells             1 1 1
+ExternalTemperature   80
+ExternalPressure      6.25
+
+Movies             no
+WriteMoviesEvery   1000
+
+PrintGhostProbabilitesEvery 1
+
+Component 0 MoleculeName             methane
+            FugacityCoefficient      1.0
+            TranslationProbability   1.0
+            RotationProbability      1.0
+            ReinsertionProbability   1.0
+            GhostSwapProbability     1.0
+            CreateNumberOfMolecules  0 
