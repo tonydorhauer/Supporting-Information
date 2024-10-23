@@ -1,0 +1,16 @@
+# general rule for shifted vs truncated
+shifted
+# general rule tailcorrections
+no
+# number of defined interactions
+7
+# type interaction
+Zn             LENNARD_JONES     62.3996    2.4616   // UFF
+O              LENNARD_JONES     48.1584    3.0332   // Dreiding
+C              LENNARD_JONES     47.8565    3.4730   // Dreiding
+H              LENNARD_JONES      7.6490    2.8464   // Dreiding
+CH4            LENNARD_JONES    158.5       3.65     // DACNIS modified
+C_co2          LENNARD_JONES     27.0       2.8      // TraPPE
+O_co2          LENNARD_JONES     79.0       3.05     // TraPPE
+# general mixing rule for Lennard-Jones
+Lorentz-Berthelot
