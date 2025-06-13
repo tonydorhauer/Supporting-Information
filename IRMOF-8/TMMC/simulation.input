@@ -1,10 +1,8 @@
 SimulationType                 MonteCarlo
-NumberOfCycles                 1000000
-NumberOfInitializationCycles   50000
+NumberOfCycles                 2000000
+NumberOfInitializationCycles   200000
 PrintEvery                     1000
 RestartFile                    no
-
-RandomSeed 7
 
 ContinueAfterCrash             no
 WriteBinaryRestartFileEvery    0
